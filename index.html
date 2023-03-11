@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#">
+                <img class="header--logo" src="./img/Coca-Cola_logo_white-1.svg" alt="logo">
+            </a>
+            <nav class="navigation-desctop">
+                <ul class="navigation-list">
+                    <li>Main</li>
+                    <li>About</li>
+                    <li>Products</li>
+                    <li>Contacts</li>
+                </ul>
+                <div class="menu">
+                    <div id="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+</body>
+<script>
+    $(function () {
+        $('#menu-icon').click(function () {
+            $(this).toggleClass('open');
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    max-width: 767px;
+    margin: 0 auto;
+    background-color: #58404039;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1440px;
+        background-color: orange;
+    }
+}

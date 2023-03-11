@@ -1,0 +1,18 @@
+.navigation-desctop {
+    display: flex;
+}
+
+.navigation-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .navigation-list {
+        display: flex;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    
+}
